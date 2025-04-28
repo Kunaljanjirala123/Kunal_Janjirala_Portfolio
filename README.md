@@ -40,7 +40,8 @@ bash
 Copy
 Edit
 npm start
-Visit: http://localhost:3000
+Visit: www.kunaljanjirala.com
+
 
 4. 🌐 Deployment
 Vercel: Connect your GitHub repo, set NODE_ENV and other env vars.
