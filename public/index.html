@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Janjirala | AI/ML Engineer Portfolio</title>
+    
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Typed.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+    <!-- ===== Header & Navigation ===== -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#hero" class="logo">Kunal</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== Hero Section ===== -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <h1>Hi, I'm Kunal Janjirala</h1>
+            <h2><span id="typed-text"></span></h2>
+            <div class="hero-buttons">
+                <button onclick="openResume()">View Resume</button>
+                <button onclick="scrollToContact()">Let's Connect</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== About Me Section ===== -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="profile-pic">
+                <img src="assets/kunal.png" alt="Kunal Janjirala">
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>AI/ML Engineer with expertise in LLMs, MLOps, and Generative AI solutions...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Skills Section ===== -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+                <div class="skill-item"><i class="fas fa-brain"></i> TensorFlow</div>
+                <div class="skill-item"><i class="fas fa-robot"></i> PyTorch</div>
+                <div class="skill-item"><i class="fas fa-cloud"></i> Vertex AI</div>
+                <div class="skill-item"><i class="fas fa-comments"></i> Dialogflow CX</div>
+                <div class="skill-item"><i class="fas fa-code"></i> Hugging Face</div>
+                <div class="skill-item"><i class="fas fa-cogs"></i> CI/CD</div>
+                <div class="skill-item"><i class="fas fa-database"></i> RAG Pipelines</div>
+                <div class="skill-item"><i class="fas fa-cloud-upload-alt"></i> GCP / AWS / Azure</div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Experience Timeline ===== -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <img src="assets/homedepot.png" alt="Home Depot Logo">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Home Depot</h3>
+                        <span class="timeline-date">2023 - Present</span>
+                        <p>AI/ML Engineer specializing in LLM fine-tuning, MLOps, and GenAI solutions.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <img src="assets/tdbank.png" alt="TD Bank Logo">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>TD Bank</h3>
+                        <span class="timeline-date">2022 - 2023</span>
+                        <p>Data Scientist focusing on fraud detection, conversational AI, and RAG pipelines.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <img src="assets/accenture.png" alt="Accenture Logo">
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Accenture</h3>
+                        <span class="timeline-date">2019 - 2022</span>
+                        <p>Data Scientist/Analyst working on computer vision, data analytics, and cloud integration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Projects Showcase ===== -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Key Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Conversational AI Platform</h3>
+                    <p>Developed scalable chatbots using Dialogflow CX and Vertex AI for enterprise clients.</p>
+                </div>
+                <div class="project-card">
+                    <h3>RAG Pipeline with FAISS</h3>
+                    <p>Designed retrieval-augmented generation systems for dynamic knowledge responses.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Fraud Detection System</h3>
+                    <p>Implemented ML pipelines for real-time transaction monitoring in the banking sector.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Certificates & Awards ===== -->
+    <section id="certificates" class="certificates-section">
+        <div class="container">
+            <h2>Certificates & Awards</h2>
+            <ul class="certificates-list">
+                <li>Azure AI Engineer Associate</li>
+                <li>Scrum Master Certification</li>
+                <li>Best Performer Award - Home Depot</li>
+                <li>Zero Defect Delivery Recognition</li>
+            </ul>
+        </div>
+    </section>
+    <!-- ===== Resume Viewer Modal ===== -->
+    <div id="resume-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Kunal's Resume</h2>
+                <button onclick="closeResume()" class="close-btn">✖</button>
+            </div>
+            <iframe src="assets/resume.pdf" frameborder="0"></iframe>
+            <div class="modal-footer">
+                <a href="assets/resume.pdf" download class="download-btn">📄 Download PDF</a>
+                <button onclick="openFullscreen()">🔍 Fullscreen</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== Chatbot Floating Button & Popup ===== -->
+    <div id="chatbot-toggle" onclick="toggleChatbot()">💬</div>
+
+    <div id="chatbot-popup">
+        <div class="chat-header">
+            <span>AI Career Assistant</span>
+            <button onclick="toggleChatbot()">✖</button>
+        </div>
+        <div class="chat-messages" id="messages"></div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Ask me anything..." />
+            <button onclick="sendMessage()">➤</button>
+        </div>
+    </div>
+
+    <!-- ===== Contact Section ===== -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for collaborations or just a friendly chat.</p>
+            <ul class="contact-info">
+                <li>Email: <a href="mailto:kunaljanjirala6@gmail.com">kunaljanjirala6@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://linkedin.com/in/kunal-janjirala" target="_blank">/kunal-janjirala</a></li>
+                <li>GitHub: <a href="https://github.com/kunaljanjirala123" target="_blank">/kunaljanjirala123</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ===== Footer Start ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>“If this portfolio inspired you, imagine what we can build together.” 🚀</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/kunal-janjirala" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/kunaljanjirala123" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/kunaljanjirala" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- ===== Decorative SVG Divider ===== -->
+    <div class="svg-divider">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0 V50 Q600,150 1200,50 V0 Z" fill="#0d0d0d"></path>
+        </svg>
+    </div>
+
+    <!-- ===== Fun Facts Section ===== -->
+    <section id="fun-facts" class="fun-facts-section">
+        <div class="container">
+            <h2>Fun Facts</h2>
+            <ul class="fun-facts-list">
+                <li>🎮 Gamer by night — strategy games are my thing!</li>
+                <li>📚 Always exploring the latest in AI research papers.</li>
+                <li>✈️ Passionate about travel & tech conferences.</li>
+                <li>🤖 Built my first chatbot before it was cool!</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ===== Blog / Articles Placeholder ===== -->
+    <section id="blog" class="blog-section">
+        <div class="container">
+            <h2>Latest Insights</h2>
+            <p>Coming soon: Articles on AI/ML trends, MLOps best practices, and Generative AI breakthroughs.</p>
+        </div>
+    </section>
+
+    <!-- ===== Another SVG Divider ===== -->
+    <div class="svg-divider">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0 V30 Q600,130 1200,30 V0 Z" fill="#1a1a1a"></path>
+        </svg>
+    </div>
+
+    <!-- ===== Extended Footer Content ===== -->
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; 2024 Kunal Janjirala. All Rights Reserved.</p>
+            <p>Designed with passion and a touch of AI 🤖</p>
+        </div>
+    </div>
+    <!-- ===== Scroll To Top Button ===== -->
+    <button id="scrollTopBtn" onclick="scrollToTop()" aria-label="Scroll to top">⬆️</button>
+
+    <!-- ===== Page Loader Placeholder ===== -->
+    <div id="page-loader">
+        <div class="loader-animation">
+            <span></span><span></span><span></span>
+        </div>
+        <p>Loading Kunal's Portfolio...</p>
+    </div>
+
+    <!-- ===== Structured Data for SEO (JSON-LD) ===== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Kunal Janjirala",
+      "jobTitle": "AI/ML Engineer",
+      "url": "https://your-portfolio-link.com",
+      "sameAs": [
+        "https://linkedin.com/in/kunal-janjirala",
+        "https://github.com/kunaljanjirala123"
+      ]
+    }
+    </script>
+
+    <!-- ===== External JS Libraries ===== -->
+    <!-- Typed.js already loaded in head -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+
+    <!-- ===== Main JS ===== -->
+    <script src="js/main.js"></script>
+
+    <!-- ===== Inline Script for Scroll Button & Loader ===== -->
+    <script>
+        // Scroll To Top Logic
+        const scrollBtn = document.getElementById('scrollTopBtn');
+        window.onscroll = function() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollBtn.style.display = "block";
+            } else {
+                scrollBtn.style.display = "none";
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Page Loader Logic (Hide after content loads)
+        window.onload = function() {
+            document.getElementById('page-loader').style.display = 'none';
+        };
+    </script>
+
+    <!-- ===== Accessibility Note ===== -->
+    <!-- Ensure all interactive elements have aria-labels or roles for better screen reader support -->
+
+</body>
+</html>
